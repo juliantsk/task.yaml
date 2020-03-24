@@ -5,7 +5,7 @@ A flexible human-readable task specification in [YAML], inspired by [todo.txt] a
 ### Flexibility
 Task.yaml allows you to decide how to organize your tasks and store your data. With a flat-file database, you can easily share, store, and secure it how you see fit. Using [YAML] as a backbone, Task.yaml provides a framework for user configuration and task metadata that can fit to the way you work rather than the other way around.
 
-### Readabilitiy
+### Readability
 [YAML] rivals [Markdown] for readability, so you can always open the file up yourself and search through it to verify the integrity of your data.
 
 ### Hierarachy
