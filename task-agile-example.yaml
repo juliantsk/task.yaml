@@ -1,0 +1,26 @@
+# FILE CONFIG
+task_yaml_version:     0.0.1
+task_types: 
+  ? Epic
+  ? Feature
+  ? User Story
+  ? Task
+
+# TASK LIST
+tasks:
+    - uuid:   A4786
+      created:        2012-08-06
+      description:   Water Bucket (Filled)
+      type: {{task_types.Epic}}
+      due:     2012-08-06
+      effort:  4
+
+    - uuid:   A4786
+      created:        2012-08-06
+      links: 
+        - uuid: A4786
+          relationship: parent
+      description:   Water 
+      type: {{task_types.Feature}}
+      due:     2012-08-06
+      effort:  4
